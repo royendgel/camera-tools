@@ -38,6 +38,7 @@ class CameraTools(object):
                     logging.info("the sub process exited")
                     break
                 elif i == 1:
+                    print end_time - start_time
                     frame_number = thread.match.group(1)
                     size = int(thread.match.group(2)) * 1000
                     duration = thread.match.group(3)
