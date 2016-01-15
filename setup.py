@@ -9,7 +9,7 @@ setup(
     description = ("rtsp, mjpeg client, server and manipulator"),
     keywords = "camera tools rtsp mjpeg jpeg",
     url = "https://github.com/royendgel/camera-tools",
-    packages=['camera'],
+    packages=['cameratools'],
     classifiers=[
       'Operating System :: MacOS :: MacOS X',
       'Operating System :: Unix',

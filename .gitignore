@@ -2,3 +2,4 @@
 play_*
 *.mp4
 .idea
+camera_tools.egg-info
